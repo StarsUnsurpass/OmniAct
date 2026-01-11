@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  omniact:
+    build: .
+    environment:
+      - VLM_PROVIDER=mock
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    volumes:
+      - ./workspace:/app/workspace
+    network_mode: host

@@ -1,0 +1,10 @@
+langgraph
+langchain
+langchain-anthropic
+langchain-openai
+langchain-community
+playwright
+pydantic
+maturin
+python-dotenv
+pillow
